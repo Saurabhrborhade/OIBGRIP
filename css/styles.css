@@ -1,0 +1,186 @@
+body{
+  color: #C0A080;
+}
+#title{
+  background-color: #9C51E0;
+  padding: 2% 5%;
+  text-align: center;
+}
+/* fonts */
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Pacifico', cursive; */
+
+
+.navheading:hover{
+  color: #fff;
+}
+
+.row{
+  padding: 7% 0;
+}
+.title-img{
+  transform: rotate(35deg);
+  width: 100%;
+}
+h1{
+  font-size: 3.7rem;
+  font-family:'Pacifico', cursive;
+  line-height: 2;
+  color: #F5EEDC;
+}
+
+.buttons{
+  margin: 3%;
+
+}
+
+/* ******************************features section ************************************** */
+#features{
+  background-color: #fff;
+  text-align: center;
+
+  padding: 2% 5%;
+}
+
+.feature-icon{
+  padding: 2% 3%;
+  color:#9C51E0;
+}
+.feature-icon:hover{
+  color: #8A39E1;
+}
+h2{
+  padding-top: 3%;
+  font-family: 'Montserrat-black', sans-serif;
+  color:#000;
+  font-weight: bold;
+  line-height: 2;
+}
+p{
+  font-size: 1.2rem;
+}
+
+/* ***********************************pricing section******************* */
+#pricing{
+  background-color: #548CFF;
+  text-align: center;
+  padding: 2% 5%;
+}
+.container-fluid{
+  padding: 2% 5%;
+}
+
+.pricing-head{
+
+  font-size: 3.5rem;
+  font-weight: bolder;
+  color: #343434;
+  font-family: 'Montserrat', sans-serif;
+}
+.pricing-img{
+  border-radius: 100%;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+}
+.pricing-cols{
+  padding: 2% 2%;
+
+}
+/* ************************plans section******************* */
+#plans{
+  padding: 2% 15%;
+  text-align: center;
+}
+#plans .card-body .card-title{
+  font-size: 2rem;
+  line-height: 2;
+}
+h5{
+  color: #9C51E0;
+}
+
+.plans-cols{
+  margin:0 auto;
+  padding: 2% 10%;
+}
+/* **************download sections************************* */
+#download{
+  background-color: #9C51E0;
+  text-align: center;
+  color: #ADCE74;
+}
+.download-head{
+  font-size: 3.5rem;
+  font-weight: bolder;
+  color: #D9C6A5;
+  padding-top: 5%;
+  font-family: 'Syne Tactile', cursive;
+}
+
+#download p{
+  font-size: 1.3rem;
+  font-style: italic;
+}
+#download .buttons{
+  margin-top: 7%;
+  margin-bottom: 15%;
+}
+
+/* *********************Review section**************************** */
+#Review{
+  padding: 2% 5%;
+  text-align: center;
+
+
+}
+
+.feedback{
+  text-align: center;
+  background-color: #84DFFF;
+  padding: 5% 10%;
+}
+.feedback-img{
+  border-radius: 100%;
+  width: 20%;
+  height: 20%;
+}
+.p-feature{
+  font-size: 2rem;
+
+}
+i{
+  color: #000;
+}
+/* ******************************reach to us************************ */
+#reachtous{
+  padding: 2% 5%;
+  text-align: center;
+  background-color: #E8F6EF;
+}
+.contact-us-icons
+{
+  padding: 7% 3%;
+  color: #9C51E0;
+}
+#reachtous p{
+  font-size: 2.5rem;
+  color:#000;
+}
+
+
+/* ***************************media queries *********************** */
+@media (max-width:991px) {
+  .title-img{
+    transform: rotate(0);
+    padding: 2%;
+    width: 70%;
+  }
+}
+@media (max-width:710px) {
+  #pricing{
+    padding: 2% 8%;
+  }
+
+
+}
